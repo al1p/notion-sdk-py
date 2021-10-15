@@ -1,0 +1,165 @@
+interactions:
+- request:
+    body: '{"parent": {"type": "page_id", "page_id": "08a6286e3aaf4adcbee89ba2537d1954"},
+      "title": [{"type": "text", "text": {"content": "test9"}}], "properties": {"Name":
+      {"title": {}}, "Description": {"rich_text": {}}, "In stock": {"checkbox": {}},
+      "Food group": {"select": {"options": [{"name": "\ud83e\udd66 Vegetable", "color":
+      "green"}, {"name": "\ud83c\udf4e Fruit", "color": "red"}, {"name": "\ud83d\udcaa
+      Protein", "color": "yellow"}]}}, "Price": {"number": {"format": "dollar"}},
+      "Last ordered": {"date": {}}, "Store availability": {"type": "multi_select",
+      "multi_select": {"options": [{"name": "Duc Loi Market", "color": "blue"}, {"name":
+      "Rainbow Grocery", "color": "gray"}, {"name": "Nijiya Market", "color": "purple"},
+      {"name": "Gus''s Community Market", "color": "yellow"}]}}, "+1": {"people":
+      {}}, "Photo": {"files": {}}}, "icon": {"type": "emoji", "emoji": "\ud83c\udf89"}}'
+    headers:
+      accept:
+      - '*/*'
+      accept-encoding:
+      - gzip, deflate
+      authorization:
+      - Bearer secret_xkLbxFiC6CyeZ92ZnSkh65N5S8FTI90YCBuYNzk7ctT
+      connection:
+      - keep-alive
+      content-length:
+      - '878'
+      content-type:
+      - application/json
+      host:
+      - api.notion.com
+      notion-version:
+      - '2021-08-16'
+      user-agent:
+      - ramnes/notion-sdk-py@0.7.0
+    method: POST
+    uri: https://api.notion.com/v1/databases
+  response:
+    content: "{\"object\":\"database\",\"id\":\"5cc663f1-1e17-4d11-90cc-faa21095343d\",\"cover\":null,\"icon\":{\"type\":\"emoji\",\"emoji\":\"\U0001F389\"},\"created_time\":\"2021-10-15T14:38:00.000Z\",\"last_edited_time\":\"2021-10-15T14:38:00.000Z\",\"title\":[{\"type\":\"text\",\"text\":{\"content\":\"test9\",\"link\":null},\"annotations\":{\"bold\":false,\"italic\":false,\"strikethrough\":false,\"underline\":false,\"code\":false,\"color\":\"default\"},\"plain_text\":\"test9\",\"href\":null}],\"properties\":{\"Price\":{\"id\":\"%40mkR\",\"name\":\"Price\",\"type\":\"number\",\"number\":{\"format\":\"dollar\"}},\"In
+      stock\":{\"id\":\"NO_S\",\"name\":\"In stock\",\"type\":\"checkbox\",\"checkbox\":{}},\"Description\":{\"id\":\"YGPQ\",\"name\":\"Description\",\"type\":\"rich_text\",\"rich_text\":{}},\"Last
+      ordered\":{\"id\":\"%60ros\",\"name\":\"Last ordered\",\"type\":\"date\",\"date\":{}},\"+1\":{\"id\":\"h~vF\",\"name\":\"+1\",\"type\":\"people\",\"people\":{}},\"Food
+      group\":{\"id\":\"nO%3Bf\",\"name\":\"Food group\",\"type\":\"select\",\"select\":{\"options\":[{\"id\":\"9b9092ba-2bfa-4f9b-9c61-2fd3bf61e84a\",\"name\":\"\U0001F966
+      Vegetable\",\"color\":\"green\"},{\"id\":\"55ad0a53-c842-4a1b-b4b6-cca5e469b8cb\",\"name\":\"\U0001F34E
+      Fruit\",\"color\":\"red\"},{\"id\":\"9713956f-56de-4486-a8f5-d24df87fc73f\",\"name\":\"\U0001F4AA
+      Protein\",\"color\":\"yellow\"}]}},\"Photo\":{\"id\":\"zxEQ\",\"name\":\"Photo\",\"type\":\"files\",\"files\":{}},\"Store
+      availability\":{\"id\":\"%7DRmx\",\"name\":\"Store availability\",\"type\":\"multi_select\",\"multi_select\":{\"options\":[{\"id\":\"64940b9c-639f-4089-b1c2-24745ceed138\",\"name\":\"Duc
+      Loi Market\",\"color\":\"blue\"},{\"id\":\"a0be13bd-eb15-4530-a084-526dd46627fe\",\"name\":\"Rainbow
+      Grocery\",\"color\":\"gray\"},{\"id\":\"73c817ea-5955-4f66-aae2-50bf3922ba2f\",\"name\":\"Nijiya
+      Market\",\"color\":\"purple\"},{\"id\":\"3207413e-b99a-4960-aac6-d434fcb3113b\",\"name\":\"Gus's
+      Community Market\",\"color\":\"yellow\"}]}},\"Name\":{\"id\":\"title\",\"name\":\"Name\",\"type\":\"title\",\"title\":{}}},\"parent\":{\"type\":\"page_id\",\"page_id\":\"08a6286e-3aaf-4adc-bee8-9ba2537d1954\"},\"url\":\"https://www.notion.so/5cc663f11e174d1190ccfaa21095343d\"}"
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 69e9ca455c274aa4-FRA
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - 'script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https://gist.github.com
+        https://apis.google.com https://cdn.amplitude.com https://api.amplitude.com
+        https://widget.intercom.io https://js.intercomcdn.com https://logs-01.loggly.com
+        https://cdn.segment.com https://analytics.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://embed.typeform.com
+        https://admin.typeform.com https://public.profitwell.com js.sentry-cdn.com
+        https://js.chilipiper.com https://platform.twitter.com https://cdn.syndication.twimg.com;
+        connect-src ''self'' https://msgstore.www.notion.so wss://msgstore.www.notion.so
+        ws://localhost:* ws://127.0.0.1:* https://notion-emojis.s3-us-west-2.amazonaws.com
+        https://s3-us-west-2.amazonaws.com https://s3.us-west-2.amazonaws.com https://notion-production-snapshots-2.s3.us-west-2.amazonaws.com
+        https: http: https://cdn.amplitude.com https://api.amplitude.com https://api.embed.ly
+        https://js.intercomcdn.com https://api-iam.intercom.io wss://nexus-websocket-a.intercom.io
+        https://logs-01.loggly.com https://cdn.segment.com https://api.segment.io
+        https://analytics.pgncs.notion.so https://api.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://cdn.contentful.com
+        https://preview.contentful.com https://images.ctfassets.net https://www2.profitwell.com
+        https://tracking.chilipiper.com https://api.chilipiper.com https://api.unsplash.com
+        https://boards-api.greenhouse.io https://api.statuspage.io https://pgncd.notion.so;
+        font-src ''self'' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com;
+        img-src ''self'' data: blob: https: https://platform.twitter.com https://syndication.twitter.com
+        https://pbs.twimg.com https://ton.twimg.com; style-src ''self'' ''unsafe-inline''
+        https://cdnjs.cloudflare.com https://github.githubassets.com https://js.chilipiper.com
+        https://platform.twitter.com https://ton.twimg.com; frame-src https: http:;
+        media-src https: http:'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 15 Oct 2021 14:38:17 GMT
+      ETag:
+      - W/"75b-DTc8N9CBzGWR/h2MIWZ5rw/xK64"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Referrer-Policy:
+      - same-origin
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - notion_browser_id=dd766684-3b26-4d4b-8363-13f4ae2e33c5; Domain=www.notion.so;
+        Path=/; Expires=Mon, 23 Jun 2053 16:24:56 GMT; Secure
+      Strict-Transport-Security:
+      - max-age=5184000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Security-Policy:
+      - 'script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https://gist.github.com
+        https://apis.google.com https://cdn.amplitude.com https://api.amplitude.com
+        https://widget.intercom.io https://js.intercomcdn.com https://logs-01.loggly.com
+        https://cdn.segment.com https://analytics.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://embed.typeform.com
+        https://admin.typeform.com https://public.profitwell.com js.sentry-cdn.com
+        https://js.chilipiper.com https://platform.twitter.com https://cdn.syndication.twimg.com;
+        connect-src ''self'' https://msgstore.www.notion.so wss://msgstore.www.notion.so
+        ws://localhost:* ws://127.0.0.1:* https://notion-emojis.s3-us-west-2.amazonaws.com
+        https://s3-us-west-2.amazonaws.com https://s3.us-west-2.amazonaws.com https://notion-production-snapshots-2.s3.us-west-2.amazonaws.com
+        https: http: https://cdn.amplitude.com https://api.amplitude.com https://api.embed.ly
+        https://js.intercomcdn.com https://api-iam.intercom.io wss://nexus-websocket-a.intercom.io
+        https://logs-01.loggly.com https://cdn.segment.com https://api.segment.io
+        https://analytics.pgncs.notion.so https://api.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://cdn.contentful.com
+        https://preview.contentful.com https://images.ctfassets.net https://www2.profitwell.com
+        https://tracking.chilipiper.com https://api.chilipiper.com https://api.unsplash.com
+        https://boards-api.greenhouse.io https://api.statuspage.io https://pgncd.notion.so;
+        font-src ''self'' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com;
+        img-src ''self'' data: blob: https: https://platform.twitter.com https://syndication.twitter.com
+        https://pbs.twimg.com https://ton.twimg.com; style-src ''self'' ''unsafe-inline''
+        https://cdnjs.cloudflare.com https://github.githubassets.com https://js.chilipiper.com
+        https://platform.twitter.com https://ton.twimg.com; frame-src https: http:;
+        media-src https: http:'
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-WebKit-CSP:
+      - 'script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https://gist.github.com
+        https://apis.google.com https://cdn.amplitude.com https://api.amplitude.com
+        https://widget.intercom.io https://js.intercomcdn.com https://logs-01.loggly.com
+        https://cdn.segment.com https://analytics.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://embed.typeform.com
+        https://admin.typeform.com https://public.profitwell.com js.sentry-cdn.com
+        https://js.chilipiper.com https://platform.twitter.com https://cdn.syndication.twimg.com;
+        connect-src ''self'' https://msgstore.www.notion.so wss://msgstore.www.notion.so
+        ws://localhost:* ws://127.0.0.1:* https://notion-emojis.s3-us-west-2.amazonaws.com
+        https://s3-us-west-2.amazonaws.com https://s3.us-west-2.amazonaws.com https://notion-production-snapshots-2.s3.us-west-2.amazonaws.com
+        https: http: https://cdn.amplitude.com https://api.amplitude.com https://api.embed.ly
+        https://js.intercomcdn.com https://api-iam.intercom.io wss://nexus-websocket-a.intercom.io
+        https://logs-01.loggly.com https://cdn.segment.com https://api.segment.io
+        https://analytics.pgncs.notion.so https://api.pgncs.notion.so https://o324374.ingest.sentry.io
+        https://checkout.stripe.com https://js.stripe.com https://cdn.contentful.com
+        https://preview.contentful.com https://images.ctfassets.net https://www2.profitwell.com
+        https://tracking.chilipiper.com https://api.chilipiper.com https://api.unsplash.com
+        https://boards-api.greenhouse.io https://api.statuspage.io https://pgncd.notion.so;
+        font-src ''self'' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com;
+        img-src ''self'' data: blob: https: https://platform.twitter.com https://syndication.twitter.com
+        https://pbs.twimg.com https://ton.twimg.com; style-src ''self'' ''unsafe-inline''
+        https://cdnjs.cloudflare.com https://github.githubassets.com https://js.chilipiper.com
+        https://platform.twitter.com https://ton.twimg.com; frame-src https: http:;
+        media-src https: http:'
+      X-XSS-Protection:
+      - 1; mode=block
+    http_version: HTTP/1.1
+    status_code: 200
+version: 1
